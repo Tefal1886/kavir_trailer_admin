@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "vazirmatn";
+  src: url("public/fonts/Vazirmatn.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: "vazirmatn", sans-serif;
+}
