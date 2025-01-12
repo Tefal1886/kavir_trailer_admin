@@ -5,4 +5,28 @@
   body {
     direction: rtl;
   }
+  .btn {
+    @apply w-fit border-2 border-cello px-2 py-1 rounded-md disabled:border-gray-400 disabled:text-gray-400 late;
+  }
+  .btn_del {
+    @apply bg-primary text-sidecar text-sm rounded-md py-1 px-2 h-fit hover:bg-opacity-70 late;
+  }
+  .btn_edit {
+    @apply bg-yellow-500 w-fit text-sidecar text-sm rounded-md py-1 px-2 h-fit hover:bg-yellow-400 late;
+  }
+  .btn_disable {
+    @apply bg-gray-500 text-sidecar w-[75px] text-sm rounded-md p-1 h-fit hover:bg-gray-400 late;
+  }
+  .container {
+    @apply flex flex-col gap-5 min-w-full;
+  }
+  .header {
+    @apply text-xl font-semibold py-4;
+  }
+  .late {
+    @apply transition-all duration-200;
+  }
+  .side-icon {
+    @apply border-[1px] border-sidecar py-2 px-4 text-center 2xl:text-xl rounded-md hover:bg-sidecar hover:text-cello cursor-pointer late;
+  }
 }

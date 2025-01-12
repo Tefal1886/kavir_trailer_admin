@@ -13,8 +13,10 @@ export default {
       colors: {
         transparent: "transparent",
         current: "currentColor",
-        cello: "#214c6c",
-        sidecar: "#f3f1b8",
+        cello: "#486497",
+        sidecar: "#ffffff",
+        primary: "#F72554",
+        secondary: "#4ab181",
       },
     },
   },
