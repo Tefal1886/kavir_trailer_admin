@@ -3,6 +3,7 @@
     <div class="flex pt-8 gap-3">
       <button
         class="btn text-xl border-cello bg-cello text-sidecar hover:brightness-125"
+        @click="$emit('send')"
       >
         ثبت ویرایش
       </button>

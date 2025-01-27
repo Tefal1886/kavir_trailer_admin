@@ -4,11 +4,11 @@
     <SelectionBar title="محصولات" add="true" />
     <div class="flex flex-col w-full">
       <ProductCard
-        v-for="(product, index) in products"
-        :key="index"
-        :image="product.icon"
-        :title="product.title"
+        v-for="product in products"
+        :key="product.id"
         :id="product.id"
+        :title="product.name"
+        :image="product.aks_kala[0].address"
       />
     </div>
   </div>

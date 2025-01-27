@@ -23,6 +23,21 @@
   .header {
     @apply text-xl font-semibold py-4;
   }
+  .input_style {
+    @apply py-1 px-2 bg-cello bg-opacity-10 border border-cello rounded-md text-gray-700 outline-none focus:outline-cello outline-offset-0;
+  }
+  .input_container {
+    @apply flex items-center gap-1 grow;
+  }
+  .input_subject {
+    @apply w-24 sm:w-28 md:w-32;
+  }
+  .input_title {
+    @apply input_style w-24 md:w-32 h-20;
+  }
+  .input_content {
+    @apply input_style grow;
+  }
   .late {
     @apply transition-all duration-200;
   }
