@@ -24,7 +24,7 @@
     @apply text-xl font-semibold py-4;
   }
   .input_style {
-    @apply py-1 px-2 bg-cello bg-opacity-10 border border-cello rounded-md text-gray-700 outline-none focus:outline-cello outline-offset-0;
+    @apply py-1 px-2 bg-cello bg-opacity-10 border border-cello rounded-md text-gray-700 outline-none focus:outline-cello outline-offset-0 placeholder:text-primary placeholder:text-sm placeholder:opacity-60;
   }
   .input_container {
     @apply flex items-center gap-1 grow;

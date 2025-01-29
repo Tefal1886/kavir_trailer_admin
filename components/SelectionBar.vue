@@ -5,7 +5,7 @@
         class="btn text-xl border-cello bg-cello text-sidecar hover:brightness-125"
         @click="$emit('send')"
       >
-        ثبت ویرایش
+        تایید ویرایش
       </button>
       <button
         class="btn text-xl border-primary bg-primary text-sidecar hover:brightness-75"
@@ -14,7 +14,7 @@
       </button>
     </div>
     <div class="flex flex-col lg:flex-row lg:justify-between gap-8 pt-8">
-      <div class="flex flex-row flex-wrap gap-3 sm:gap-2 text-lg">
+      <!-- <div class="flex flex-row flex-wrap gap-3 sm:gap-2 text-lg">
         <button
           class="btn sm:text-sm md:text-md hover:text-secondary hover:border-secondary"
         >
@@ -32,7 +32,7 @@
         >
           حذف {{ title }} انتخاب شده
         </button>
-      </div>
+      </div> -->
       <button v-if="add" class="btn_edit flex items-center gap-3 text-lg">
         <Lucide-plus />
         <span> افزودن محصول </span>
